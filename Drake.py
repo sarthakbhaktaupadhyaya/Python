@@ -1,0 +1,11 @@
+print("Welcome user, \nThis is the Python Program to calculate the Drake Equation \nPlease do input all the values as integers \nThank You!!!")
+print("")
+R = float(input('Enter the average rate of star creation per year in our galaxy: '))
+p = float(input('Enter the percentage of those stars that have planets: '))
+n = float(input('Enter the average number of planets that can potentially support life for each star with planets: '))
+f = float(input('Enter the percentage of those planets that go on to develop life: '))
+i = float(input('Enter the percentage of those planets that go on to develop intelligent life: '))
+c = float(input('Enter the percentage of those that have the technology communicate with us: '))
+L = float(input('Enter the expected lifetime of civilizations: '))
+N = R * p * n * f * i * c * L
+print('Based on the entered values, \nEstimated number of potentially detectable civilizations in our galaxy are: ',N)
